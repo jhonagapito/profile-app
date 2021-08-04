@@ -1,4 +1,44 @@
-# Getting Started with Create React App
+# Profile-App
+
+This project is an examination for a ReactJs developer position.
+
+The requirements are as follows:
+
+ABC Company plan to have a CRM application to be made from the scratch. They have conducted planing and meeting for all the information needed for the said application and come with the business requirements below.
+
+Business Requirements:
+
+1. Login Page
+2. Navigation Menu
+3. Display Members Information
+
+Tasks:
+
+1. Create Web Application Design for Login Page with submit button and add company logo.
+2. Upon login submission, redirect the user to the index/home page where it has a navigation menu as mentioned below.
+   a. Home
+   b. Profile
+   c. Cases
+   d. Campaign
+   e. Reports
+   f. Settings
+3. Create atleast a profile Menu clickable and display the information below within the main layout.
+   a. FirstName
+   b. LastName
+   c. Gender
+   d. Birth Date
+   e. Country
+4. Document your code on what technology you used.
+
+### Technology Stack
+
+1. Created a reactJS application using npx create-react-app with typescript template
+2. Implemented a routing using the react-router-dom to navigate between login page and the dashboard and other pages.
+3. Upon login, the app will write a token in localStorage to simulate successful API login and clears the localStorage upon logout.
+4. The user will not be able to access the other pages if not logged in due to the ProtectedRoute component implemented to safeguard these routes.
+5. Bootstrap 5 is also implemented for the styling.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
