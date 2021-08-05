@@ -36,7 +36,7 @@ Tasks:
 2. Implemented a routing using the react-router-dom to navigate between login page and the dashboard and other pages.
 3. Upon login, the app will write a token in localStorage to simulate successful API login and clears the localStorage upon logout.
 4. The user will not be able to access the other pages if not logged in due to the ProtectedRoute component implemented to safeguard these routes.
-5. Bootstrap 5 is also implemented for the styling.
+5. Bootstrap 5 is also implemented for the styling and Reactstrap for responsive Navbar.
 
 ## Getting Started with Create React App
 
